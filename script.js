@@ -65,6 +65,7 @@ const calculate = () =>{
       result = parseFloat(prevNumber) / parseFloat(currentNumber)
       break
     default:
+      console.log('default')
       break
   }
   currentNumber = result
